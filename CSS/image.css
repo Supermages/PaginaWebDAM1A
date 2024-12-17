@@ -1,0 +1,53 @@
+/*Esta generalizacion sirve para dar formato a las imagenes que se vayan introduciendo, en general.*/
+img{
+    margin: 20px;
+    border: solid 3px #F2AB27;
+    width: 20%;
+}
+/*Esta generalizacion sirve para dar formato a las imagenes que se introduzcan en historia.*/
+.imgH{
+    border: solid 3px #F2AB27;
+    background-size: cover;
+    margin: 20px;
+    display: flex;
+}
+/*Esta generalizacion sirve para dar formato a las imagenes que se introduzcan en historia a la derecha.*/
+.imgHDer{
+    border: solid 3px #F2AB27;
+    background-size: cover;
+    margin: 20px;
+    display: flex;
+    justify-content: right;
+}
+/*Esta generalizacion sirve para dar formato a la imagen principal, que actua como banner, de Historia.*/
+.imgHistoriaPrincipal{
+    width: 99vw;
+    height: 35vh;
+    background-image: url(../Multimedia/Foto_Historia.jpg);
+    background-size: cover;
+    background-position-y: 58vh;
+}
+/*Esta generalizacion sirve para dar formato a la imagen principal, que actua como banner, de Inicio.*/
+.imgPrincipal{
+    width: 99vw;
+    height: 20vh;
+    background-size: cover;
+    background-position-y:50vh;
+    background-image: url(../Multimedia/Foto_Pag_Inicio.png);
+}
+/*Esta generalizacion sirve para dar formato a la imagen principal, que actua como banner, de Personaje.*/
+.imgPersonajePrincipal{
+    width: 99vw;
+    height: 35vh;
+    background-image: url(../Multimedia/Foto_Personajes_Principal.jpg);
+    background-size: cover;
+    background-position-y: 77vh;
+}
+/*Esta generalizacion sirve para dar formato a la imagen principal, que actua como banner, de Speedrun.*/
+.imgSpeedrunPrincipal{
+    width: 99vw;
+    height: 35vh;
+    background-image: url(../Multimedia/Foto_Speedrun_Principal.jpg);
+    background-size: cover;
+    background-position-y: 60vh;
+}

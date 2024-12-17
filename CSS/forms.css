@@ -1,0 +1,40 @@
+/*Esta clase se encargara de dar formato a la caja de formulario, al ser mas especial que las otras, se encuentra en este archivo..*/
+.cajaForm{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #510273;
+    margin: 0px 20px 0px 20px;
+    border: solid 3px #F2AB27; 
+}
+/*Esta generalizacion es mas por formato, ya que ciertos divs se quedarian muy abajo si no se le pone esto.*/
+.cajaForm div{
+    margin-bottom: 20px;
+}
+/*Esta generalizacion es para poner la fuente y dejar bien el espaciado*/
+input{
+    margin: 0px 20px 0px 20px;
+    font-family: "Silkscreen", sans-serif;
+}
+/*Esta generalizacion es para poner la fuente y dejar bien el espaciado*/
+textarea{
+    margin: 0px 20px 20px 20px;
+    font-family: "Silkscreen", sans-serif;
+}
+/*Esta generalizacion es para formatar los botones de forma correcta.*/
+input.button{
+    margin: 0px 20px 20px 20px;
+    color: #1B0140;
+    background-color: #2EF2F2;
+    border: solid 3px #F2AB27;
+}
+/*Esta generalizacion es para dar color a los textos, y ademas, darles margenes.*/
+form label{
+    color: #2EF2F2;
+    margin:20px;
+}
+/*Esta generalizacion es para darle color a todos los textos, ademas de algo de margenes.*/
+main p, main h1, main h2, main h3 {
+    color: #F2AB27;
+    margin-left: 10px;
+}

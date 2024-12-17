@@ -1,0 +1,49 @@
+/*Esta clase se encargara de formatar las cajas como tal, para que esten centradas y se muestren de forma correcta.*/
+.caja{
+    display: flex;
+    justify-content: center;
+}
+/*Esta clase se encargara de dar color a las cajas que contengan texto o formularios. Es el estandar de la pagina.*/
+.cajaTexto{
+    background-color: #2EF2F2;
+    margin: 20px;
+    border: solid 3px #F2AB27;
+}
+/*Esta generalizacion se encargara de dar color al texto de dentro de las cajas como tal.*/
+.cajaTexto h1, .cajaTexto h2, .cajaTexto h3, .cajaTexto p, .cajaTexto li{
+    color: #1B0140;
+}
+/*Esta clase se encargara de manejar las cajas de historia, ya que requieren ser menos grandes que las estandar.*/
+.cajaTextoHistoria{
+    background-color: #2EF2F2;
+    margin: 20px;
+    border: solid 3px #F2AB27;
+    width: 50%;
+}
+/*Esta generalizacion se encargara de dar color al texto de dentro de las cajas de historia.*/
+.cajaTextoHistoria p, .cajaTextoHistoria h1, .cajaTextoHistoria h2, .cajaTextoHistoria h3{
+    color:#1B0140;
+}
+/*Esta clase se encargara de manejar las cajas de personaje, ya que requieren ser menos grandes que las estandar.*/
+.cajaTextoPersonaje{
+    background-color: #2EF2F2;
+    margin: 20px;
+    border: solid 3px #F2AB27;
+    width: 70%;
+}
+/*Esta generalizacion se encargara de dar color al texto de dentro de las cajas de personaje.*/
+.cajaTextoPersonaje p, .cajaTextoPersonaje h1, .cajaTextoPersonaje h2, .cajaTextoPersonaje h3{
+    color:#1B0140;
+}
+/*Esta clase se encargara de manejar las cajas de los indices, ya que requieren ser menos grandes que las estandar, ademas de tener un color diferente en general.*/
+.cajaIndice{
+    background-color: #510273;
+    margin: 20px;
+    border: solid 3px #F2AB27;
+    width: 50%;
+    text-align: center;
+}
+/*Esta generalizacion se encargara de dar color al texto de dentro de las cajas de indice.*/
+.cajaIndice h1, .cajaIndice h2, .cajaIndice h3, .cajaIndice p, .cajaIndice a{
+    color: #F2AB27;
+}

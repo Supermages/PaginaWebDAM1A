@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Este metadato es para proporcionar al navegador el titulo de la pagina web-->
+    <meta name="title" content="Katana Zero">
+    <!--Este metadato es para proporcionar al navegador la descripcion de la pagina web-->
+    <meta name="description" content="Es un sitio web sobre el videojuego Katana Zero">
+    <!--Este metadato es para proporcionar las palabras claves de la pagina web-->
+    <meta name="keywords" content="Katana Zero Contacto, Contacto Katana Zero">
+    <!--Este metadato es para ver que pueden hacer los robots, en mi caso, les dejo libre acceso.-->
+    <meta name="robots" content="index, follow">
+    <!--Este metadato es para proporcionar al navegador que extension es la pagina y su charset-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--Este metadato es para proporcionar al navegador el lenguaje de la pagina-->
+    <meta name="language" content="Spanish">
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../Multimedia/FavGen.ico" type="image/ico">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/cajas.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/forms.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/image.css">
+    <!--Esta parte de aqui avisa a la pagina web que se preconectara a la api de fonts.googleapis.com, la cual aloja las hojas CSS de las fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Esta parte de aqui avisa a la pagina web que se preconectara a la api de fonts.gstatic.com, la cual contiene las fuentes como tal-->
+    <!--El atributo crossorigin avisa que el servidor necesitara permitir que haga la solicitud otro dominio.-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Esta parte de aqui se encarga de cargar la hoja de CSS como tal, utilizando la fuente de Silkscreen con dos weights, 400 y 700, 400 siendo la normal y 700 siendo bold.-->
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <!--Este schema representa a la organizacion que lleva todo esto, que seria la organizacion "Katana Zero Fans"-->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Katana Zero Fans",
+          "alternateName": "Katana Zero Fans Org",
+          "url": "",
+          "logo": "http://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.steamgriddb.com%2Fgame%2F11465&psig=AOvVaw3gTTJ8KBZLYUdzEk-Jt6Ww&ust=1734267933495000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjPi9Opp4oDFQAAAAAdAAAAABAE"
+        }
+    </script>
+</head>
+
+
+<body>
+    <header>
+        <div class="header">
+            <a href="../Inicio.html">
+                <h1>Katana Zero</h1>
+            </a>
+            <nav>
+                <div>
+                    <a href="../Inicio.html">
+                        <div>
+                            <p>Inicio</p>
+                        </div>
+                    </a>
+                    <a href="Historia.html">
+                        <div>
+                            <p>Historia</p>
+                        </div>
+                    </a>
+                    <a href="Personajes.html">
+                        <div>
+                            <p>Personajes</p>
+                        </div>
+                    </a>
+                    <a href="Speedruns.html">
+                        <div>
+                            <p>Speedruns</p>
+                        </div>
+                    </a>
+                    <a href="Contacto.html" class="activo">
+                        <div>
+                            <p>Contacto</p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Cualquier duda que tengan, pregunten a traves del formulario a continuacion:</h2>
+        <form action="../form.php">
+            <section class="cajaForm">
+                <h2>Formulario de contacto</h2>
+                <label for="nom">Nombre</label>
+                <input type="text" name="nom" id="nom" style="width: 40%;">
+                <label for="email">Correo</label>
+                <input type="email" name="email" id="email" style="width: 40%;">
+                <label for="pre">Pregunta</label>
+                <input type="text" name="pre" id="pre">
+                <label for="mens">Mensaje</label>
+                <textarea name="mensaje" id="mens" cols="40" rows="5"></textarea>
+                <div>
+                    <label for="tercon">Ha leido nuestros terminos y condiciones.</label>
+                    <input type="checkbox" name="tercon" id="tercon">
+                </div>
+                <input type="reset" class="button">
+                <input type="Submit" class="button">
+            </section>
+        </form>
+        <h2>Para consultas mas especializadas, pueden utilizar la informacion a continuacion:</h2>
+        <section class="cajaTexto">
+            <h3>Email: katanazerofans@gmail.com</h3>
+            <h3>Instagram: (Por hacer)</h3>
+            <h3>Numero de telefono: +34 654 54 54 54</h3>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h2>© 2024 - 2024 Katana Zero Fan Club <br><a href="Terminos_y_condiciones.html">Terminos y Condiciones</a></h2>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+/*Esta generalización sirve para formatar el html como tal.*/
+body{
+    scroll-behavior: smooth;
+    font-family: "Silkscreen", sans-serif;
+    background-color: #1B0140;
+    margin: 0px;
+}
+/*Esta generalización sirve para formatar el main, ya que hay que darle los margenes por el header y footer.*/
+main{
+    margin-top: 17vh;
+    margin-bottom: 17vh;
+}
+/*Esta clase sirve para darle formato al header, tales como color y posicionamiento.*/
+.header{
+    display: flex;
+    background-color: #1B0140;
+    position: fixed;
+    width: 99.7%;
+    text-align: center;
+    border: solid 3px #F2AB27;
+    top: 0%;
+    /*Asegurar que no haga overlap con ningun elemento de la pagina*/
+    z-index: 9999;
+}
+/*Esta generalizacion sirve para dar color al texto que se encuentre en el header.*/
+.header h1{
+    color: #F2AB27;
+}
+/*Esta clase sirve para darle formato al footer, tales como color y posicionamiento.*/
+.footer{
+    background-color: #1B0140;
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    width: 99.4%;
+    height: 15%;
+    border: solid 3px #F2AB27;
+    /*Asegurar que no haga overlap con ningun elemento de la pagina*/
+    z-index: 9999;
+}
+/*Esta generalizacion sirve para dar color al texto que se encuentre en el footer.*/
+.footer h1, .footer h2, .footer h3, .footer a{
+    color: #F2AB27;
+}
+/*Esta generalizacion sirve para poner un padding a todos los textos, asi se quedaran minimamente espaciados.*/
+p, h1, h2, h3{
+    padding: 10px;
+}
+/*Esta generalizacion sirve para quitar el subrallado de los links.*/
+a{
+    text-decoration: none;
+}
+/*Esta generalizacion sirve para darle formato a los videos que introduzcamos.*/
+iframe{
+    margin: 20px;
+    border: solid 3px #F2AB27;
+}
+/*Esta clase, que en realidad es generalizacion, sirve para cambiar la fuente de la pagina. Aqui solo le cambiamos el color.*/
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B0140;
+}
+
+  

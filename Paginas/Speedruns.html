@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Este metadato es para proporcionar al navegador el titulo de la pagina web-->
+    <meta name="title" content="Katana Zero">
+    <!--Este metadato es para proporcionar al navegador la descripcion de la pagina web-->
+    <meta name="description" content="Es un sitio web sobre el videojuego Katana Zero">
+    <!--Este metadato es para proporcionar las palabras claves de la pagina web-->
+    <meta name="keywords" content="Katana Zero Speedrun, Speedrun Katana Zero">
+    <!--Este metadato es para ver que pueden hacer los robots, en mi caso, les dejo libre acceso.-->
+    <meta name="robots" content="index, follow">
+    <!--Este metadato es para proporcionar al navegador que extension es la pagina y su charset-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--Este metadato es para proporcionar al navegador el lenguaje de la pagina-->
+    <meta name="language" content="Spanish">
+    <title>Speedruns</title>
+    <link rel="shortcut icon" href="../Multimedia/FavGen.ico" type="image/ico">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/cajas.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/image.css">
+    <!--Esta parte de aqui avisa a la pagina web que se preconectara a la api de fonts.googleapis.com, la cual aloja las hojas CSS de las fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Esta parte de aqui avisa a la pagina web que se preconectara a la api de fonts.gstatic.com, la cual contiene las fuentes como tal-->
+    <!--El atributo crossorigin avisa que el servidor necesitara permitir que haga la solicitud otro dominio.-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Esta parte de aqui se encarga de cargar la hoja de CSS como tal, utilizando la fuente de Silkscreen con dos weights, 400 y 700, 400 siendo la normal y 700 siendo bold.-->
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <!--Este estilo contendra solo lo de los bookmarks.-->
+    <style>
+        #S1,
+        #S2,
+        #S3,
+        #S4 {
+            /* Esto ajusta el valor para que deje bien posicionado los bookmarks */
+            scroll-margin-top: 18vh;
+        }
+    </style>
+   <!--Este schema representa a la organizacion que lleva todo esto, que seria la organizacion "Katana Zero Fans"-->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Katana Zero Fans",
+          "alternateName": "Katana Zero Fans Org",
+          "url": "",
+          "logo": "http://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.steamgriddb.com%2Fgame%2F11465&psig=AOvVaw3gTTJ8KBZLYUdzEk-Jt6Ww&ust=1734267933495000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjPi9Opp4oDFQAAAAAdAAAAABAE"
+        }
+    </script>
+</head>
+
+
+<body>
+    <header>
+        <div class="header">
+            <a href="../Inicio.html">
+                <h1>Katana Zero</h1>
+            </a>
+            <nav>
+                <div>
+                    <a href="../Inicio.html">
+                        <div>
+                            <p>Inicio</p>
+                        </div>
+                    </a>
+                    <a href="Historia.html">
+                        <div>
+                            <p>Historia</p>
+                        </div>
+                    </a>
+                    <a href="Personajes.html">
+                        <div>
+                            <p>Personajes</p>
+                        </div>
+                    </a>
+                    <a href="Speedruns.html" class="activo">
+                        <div>
+                            <p>Speedruns</p>
+                        </div>
+                    </a>
+                    <a href="Contacto.html">
+                        <div>
+                            <p>Contacto</p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="imgSpeedrunPrincipal"></div>
+        <section class="caja">
+            <div class="cajaIndice">
+                <h2><a href="#S1">Todos los niveles "Normal"</a></h2>
+                <h2><a href="#S2">Todos los niveles "Dificil"</a></h2>
+                <h2><a href="#S3">Golden Ending "Normal"</a></h2>
+                <h2><a href="#S4">Golden Ending "Dificil"</a></h2>
+            </div>
+        </section>
+        <section class="caja" id="S1">
+            <div class="cajaTextoPersonaje" style="width: 60%;">
+                <h2>Todos los niveles "Normal"</h2>
+                <p>Actual record mundial (2024): 15m 11s 720ms <br>
+                    Persona actual en conseguir el record mundial (2024):</p>
+                <img src="../Multimedia/Foto_Speedrun.png" alt="DangNabbitJones" style="width: 80%;">
+            </div>
+            <iframe width="600" height="450" src="https://www.youtube.com/embed/LRM6RgtQZKM"
+                title="WR | Katana ZERO All Stages Speedrun in 15:11.72"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="caja" id="S2">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/3-kuivURLlY"
+                title="Katana Zero Hardmode WORLD RECORD first sub 18 (17:55.55)"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="cajaTextoPersonaje" style="width: 60%;">
+                <h2>Todos los niveles "Dificil"</h2>
+                <p>Actual record mundial (2024): 17m 55s 550ms <br>
+                    Persona actual en conseguir el record mundial (2024):</p>
+                <img src="../Multimedia/Foto_Speedrun_2.png" alt="Tichat002" style="width: 80%;">
+            </div>
+        </section>
+
+        <section class="caja" id="S3">
+            <div class="cajaTextoPersonaje" style="width: 60%;">
+                <h2>Golden Ending "Normal"</h2>
+                <p>Actual record mundial (2024): 17m 57s 800ms <br>
+                    Persona actual en conseguir el record mundial (2024):</p>
+                <img src="../Multimedia/Foto_Speedrun.png" alt="DangNabbitJones" style="width: 80%;">
+            </div>
+            <iframe width="600" height="450" src="https://www.youtube.com/embed/YVA4zR7p4Z0"
+                title="WR | Katana ZERO Golden Ending in 17:57.80"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="caja" id="S4">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/aynjROIyTLo"
+                title="Katana ZERO Speedrun %Golden Ending Hard WR (27:17.43)"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="cajaTextoPersonaje" style="width: 60%;">
+                <h2>Golden Ending "Dificil"</h2>
+                <p>Actual record mundial (2024): 27m 17s 430ms <br>
+                    Persona actual en conseguir el record mundial (2024):</p>
+                <img src="../Multimedia/Foto_Speedrun_3.png" alt="sosku10" style="width: 80%;">
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer">
+                <h2>© 2024 - 2024 Katana Zero Fan Club <br><a href="Terminos_y_condiciones.html">Terminos y
+                        Condiciones</a></h2>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

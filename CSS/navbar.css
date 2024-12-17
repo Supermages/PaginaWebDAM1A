@@ -1,0 +1,36 @@
+/*Esta generalizacion es para darle formato a los divs que se encuentren dentro de la navbar.*/
+nav div{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 10px;
+}
+/*Esta generalizacion es para darle color a los links que se encuentre dentro de la navbar*/
+nav div a {
+    color: #1B0140;
+}
+/*Esta generalizacion es para formatar el link cuando se mantenga el mouse encima de este.*/
+nav div a:hover {
+    color: #F2AB27;
+    transition: all 0.4s ease;
+}
+/*Esta generalizacion es para formatar los divs que se encuentre dentro de otros, esta vez mas por colores que por posicionamiento.*/
+nav div div {
+    background-color: #2EF2F2;
+    border: solid 1px #F2AB27;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Esta generalizacion es para el tipo activo de div, en lo cual los colores se invierten.*/
+nav div a.activo div {
+    background-color: #F2AB27;
+    border: solid 1px #2EF2F2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Esta generalizacion es para el tipo activo de div, en lo cual los colores se invierten.*/
+nav div a.activo:hover {
+    color: #2EF2F2;
+    transition: all 0.4s ease;
+}
+  
